@@ -1,0 +1,1239 @@
+ServiceTimesAction.lo: ServiceTimesAction.cc ../../include/squid.h \
+ ../../include/autoconf.h ../../include/version.h ../../compat/compat.h \
+ ../../compat/osdetect.h ../../compat/fdsetsize.h /usr/include/features.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
+ ../../compat/types.h /usr/include/sys/types.h /usr/include/time.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stddef.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/linux/types.h \
+ /usr/include/asm/types.h /usr/include/asm-generic/types.h \
+ /usr/include/asm-generic/int-ll64.h /usr/include/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/stdlib.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/alloca.h /usr/include/inttypes.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h \
+ /usr/include/sys/bitypes.h /usr/include/netinet/in_systm.h \
+ /usr/include/c++/4.8.2/cstdint \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++config.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/os_defines.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/cpu_defines.h \
+ ../../compat/os/aix.h ../../compat/os/android.h \
+ ../../compat/os/dragonfly.h ../../compat/os/freebsd.h \
+ ../../compat/os/hpux.h ../../compat/os/linux.h /usr/include/netinet/in.h \
+ /usr/include/sys/socket.h /usr/include/sys/uio.h /usr/include/bits/uio.h \
+ /usr/include/bits/socket.h /usr/include/bits/sockaddr.h \
+ /usr/include/asm/socket.h /usr/include/asm-generic/socket.h \
+ /usr/include/asm/sockios.h /usr/include/asm-generic/sockios.h \
+ /usr/include/bits/in.h ../../compat/os/macosx.h \
+ ../../compat/os/mswindows.h ../../compat/os/netbsd.h \
+ ../../compat/os/next.h ../../compat/os/openbsd.h ../../compat/os/os2.h \
+ ../../compat/os/qnx.h ../../compat/os/sgi.h ../../compat/os/solaris.h \
+ ../../compat/os/sunos.h ../../compat/assert.h \
+ ../../compat/compat_shared.h /usr/include/sys/time.h \
+ /usr/include/sys/resource.h /usr/include/bits/resource.h \
+ /usr/include/dirent.h /usr/include/bits/dirent.h \
+ /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h \
+ /usr/include/linux/limits.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/bits/stat.h \
+ /usr/include/c++/4.8.2/csignal /usr/include/signal.h \
+ /usr/include/bits/signum.h /usr/include/bits/siginfo.h \
+ /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h \
+ /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h \
+ /usr/include/bits/sigthread.h /usr/include/et/com_err.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdarg.h \
+ ../../compat/xalloc.h ../../compat/xis.h /usr/include/ctype.h \
+ ../../compat/xstrerror.h /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ ../../compat/xstring.h /usr/include/string.h ../../compat/xstrto.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdbool.h \
+ ../../compat/strtoll.h ../../compat/memrchr.h ../../compat/getaddrinfo.h \
+ ../../compat/getnameinfo.h ../../compat/inet_ntop.h \
+ ../../compat/inet_pton.h ../../compat/stdvarargs.h \
+ /usr/include/c++/4.8.2/cstdarg /usr/include/syslog.h \
+ /usr/include/sys/syslog.h /usr/include/bits/syslog-path.h \
+ ../../compat/stdio.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/include/c++/4.8.2/cstdio \
+ ../../compat/statvfs.h /usr/include/sys/statvfs.h \
+ /usr/include/bits/statvfs.h /usr/include/sys/vfs.h \
+ /usr/include/sys/statfs.h /usr/include/bits/statfs.h \
+ ../../compat/debug.h /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h ../../compat/valgrind.h ../../compat/GnuRegex.h \
+ ../../compat/cppunit.h ../../include/leakcheck.h \
+ ../../src/base/TextException.h /usr/include/c++/4.8.2/exception \
+ /usr/include/c++/4.8.2/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8.2/bits/exception_ptr.h \
+ /usr/include/c++/4.8.2/bits/exception_defines.h \
+ /usr/include/c++/4.8.2/bits/nested_exception.h ../../src/ipc/Messages.h \
+ ../../src/ipc/TypedMsgHdr.h ../../compat/cmsg.h /usr/include/sys/un.h \
+ ../../src/mgr/ServiceTimesAction.h ../../src/mgr/Action.h \
+ ../../src/ipc/forward.h ../../src/mgr/forward.h \
+ ../../src/base/RefCount.h ../../src/base/Lock.h \
+ /usr/include/c++/4.8.2/iostream /usr/include/c++/4.8.2/ostream \
+ /usr/include/c++/4.8.2/ios /usr/include/c++/4.8.2/iosfwd \
+ /usr/include/c++/4.8.2/bits/stringfwd.h \
+ /usr/include/c++/4.8.2/bits/memoryfwd.h \
+ /usr/include/c++/4.8.2/bits/postypes.h /usr/include/c++/4.8.2/cwchar \
+ /usr/include/c++/4.8.2/bits/char_traits.h \
+ /usr/include/c++/4.8.2/bits/stl_algobase.h \
+ /usr/include/c++/4.8.2/bits/functexcept.h \
+ /usr/include/c++/4.8.2/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8.2/ext/type_traits.h \
+ /usr/include/c++/4.8.2/ext/numeric_traits.h \
+ /usr/include/c++/4.8.2/bits/stl_pair.h \
+ /usr/include/c++/4.8.2/bits/move.h \
+ /usr/include/c++/4.8.2/bits/concept_check.h \
+ /usr/include/c++/4.8.2/type_traits \
+ /usr/include/c++/4.8.2/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8.2/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8.2/debug/debug.h \
+ /usr/include/c++/4.8.2/bits/stl_iterator.h \
+ /usr/include/c++/4.8.2/bits/localefwd.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++locale.h \
+ /usr/include/c++/4.8.2/clocale /usr/include/locale.h \
+ /usr/include/bits/locale.h /usr/include/c++/4.8.2/cctype \
+ /usr/include/c++/4.8.2/bits/ios_base.h \
+ /usr/include/c++/4.8.2/ext/atomicity.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/gthr.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+ /usr/include/bits/timex.h /usr/include/bits/setjmp.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/atomic_word.h \
+ /usr/include/c++/4.8.2/bits/locale_classes.h \
+ /usr/include/c++/4.8.2/string /usr/include/c++/4.8.2/bits/allocator.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++allocator.h \
+ /usr/include/c++/4.8.2/ext/new_allocator.h /usr/include/c++/4.8.2/new \
+ /usr/include/c++/4.8.2/bits/ostream_insert.h \
+ /usr/include/c++/4.8.2/bits/cxxabi_forced.h \
+ /usr/include/c++/4.8.2/bits/stl_function.h \
+ /usr/include/c++/4.8.2/backward/binders.h \
+ /usr/include/c++/4.8.2/bits/range_access.h \
+ /usr/include/c++/4.8.2/bits/basic_string.h \
+ /usr/include/c++/4.8.2/initializer_list \
+ /usr/include/c++/4.8.2/ext/string_conversions.h \
+ /usr/include/c++/4.8.2/cstdlib /usr/include/c++/4.8.2/cerrno \
+ /usr/include/c++/4.8.2/bits/functional_hash.h \
+ /usr/include/c++/4.8.2/bits/hash_bytes.h \
+ /usr/include/c++/4.8.2/bits/basic_string.tcc \
+ /usr/include/c++/4.8.2/bits/locale_classes.tcc \
+ /usr/include/c++/4.8.2/streambuf \
+ /usr/include/c++/4.8.2/bits/streambuf.tcc \
+ /usr/include/c++/4.8.2/bits/basic_ios.h \
+ /usr/include/c++/4.8.2/bits/locale_facets.h \
+ /usr/include/c++/4.8.2/cwctype /usr/include/wctype.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/ctype_base.h \
+ /usr/include/c++/4.8.2/bits/streambuf_iterator.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/ctype_inline.h \
+ /usr/include/c++/4.8.2/bits/locale_facets.tcc \
+ /usr/include/c++/4.8.2/bits/basic_ios.tcc \
+ /usr/include/c++/4.8.2/bits/ostream.tcc /usr/include/c++/4.8.2/istream \
+ /usr/include/c++/4.8.2/bits/istream.tcc ../../src/Store.h \
+ ../../src/base/RefCount.h ../../src/comm/forward.h \
+ /usr/include/c++/4.8.2/vector \
+ /usr/include/c++/4.8.2/bits/stl_construct.h \
+ /usr/include/c++/4.8.2/ext/alloc_traits.h \
+ /usr/include/c++/4.8.2/bits/alloc_traits.h \
+ /usr/include/c++/4.8.2/bits/ptr_traits.h \
+ /usr/include/c++/4.8.2/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8.2/bits/stl_vector.h \
+ /usr/include/c++/4.8.2/bits/stl_bvector.h \
+ /usr/include/c++/4.8.2/bits/vector.tcc ../../src/CommRead.h \
+ ../../include/CbDataList.h ../../include/../src/cbdata.h \
+ ../../include/../src/typedefs.h ../../include/../src/enums.h \
+ ../../include/rfc1035.h /usr/include/arpa/inet.h ../../include/rfc2181.h \
+ ../../include/cache_snmp.h ../../include/snmp.h \
+ ../../include/snmp_error.h ../../include/snmp_session.h \
+ ../../include/snmp_msg.h ../../include/snmp_pdu.h ../../include/asn1.h \
+ ../../include/snmp_vars.h ../../include/snmp_api_error.h \
+ ../../include/snmp_coexist.h ../../include/parse.h \
+ ../../include/snmp-internal.h ../../include/snmp_api.h \
+ ../../include/snmp_debug.h ../../include/snmp_impl.h \
+ ../../include/../src/anyp/ProtocolType.h ../../src/comm.h \
+ ../../src/comm/IoCallback.h ../../src/base/AsyncCall.h \
+ ../../src/base/InstanceId.h ../../src/event.h ../../src/AsyncEngine.h \
+ ../../include/MemPool.h ../../include/util.h ../../include/memMeter.h \
+ ../../include/splay.h ../../src/fatal.h /usr/include/c++/4.8.2/stack \
+ /usr/include/c++/4.8.2/deque /usr/include/c++/4.8.2/bits/stl_deque.h \
+ /usr/include/c++/4.8.2/bits/deque.tcc \
+ /usr/include/c++/4.8.2/bits/stl_stack.h /usr/include/malloc.h \
+ /usr/include/memory.h ../../src/base/RefCount.h ../../src/comm/Flag.h \
+ ../../src/comm/forward.h ../../src/typedefs.h ../../src/enums.h \
+ ../../src/CommCalls.h ../../src/base/AsyncCall.h \
+ ../../src/base/AsyncJobCalls.h ../../src/base/AsyncJob.h \
+ ../../src/base/CbcPointer.h ../../src/cbdata.h ../../src/Debug.h \
+ /usr/include/c++/4.8.2/sstream /usr/include/c++/4.8.2/bits/sstream.tcc \
+ /usr/include/c++/4.8.2/iomanip /usr/include/c++/4.8.2/locale \
+ /usr/include/c++/4.8.2/bits/locale_facets_nonio.h \
+ /usr/include/c++/4.8.2/ctime \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/time_members.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/4.8.2/bits/codecvt.h \
+ /usr/include/c++/4.8.2/bits/locale_facets_nonio.tcc \
+ ../../src/comm/Flag.h ../../src/MasterXaction.h ../../src/anyp/forward.h \
+ ../../src/base/InstanceId.h ../../src/base/Lock.h \
+ ../../src/StoreIOBuffer.h ../../src/MemBuf.h ../../src/cbdata.h \
+ ../../src/Packer.h ../../src/MemBuf.cci ../../include/Range.h \
+ ../../include/hash.h ../../src/HttpReply.h ../../src/http/StatusLine.h \
+ ../../src/http/ProtocolVersion.h ../../src/anyp/ProtocolVersion.h \
+ ../../src/anyp/ProtocolType.h ../../src/http/StatusCode.h \
+ ../../src/SquidString.h ../../src/String.cci \
+ /usr/include/c++/4.8.2/cstring ../../src/HttpBody.h ../../src/HttpMsg.h \
+ ../../src/BodyPipe.h ../../src/base/AsyncJob.h \
+ ../../src/base/CbcPointer.h ../../src/http/ProtocolVersion.h \
+ ../../src/http/StatusCode.h ../../src/HttpHeader.h \
+ ../../src/HttpHeaderMask.h ../../src/SquidString.h \
+ ../../src/HttpRequestMethod.h ../../src/http/MethodType.h \
+ ../../src/SBuf.h ../../src/MemBlob.h ../../src/SBufExceptions.h \
+ ../../src/base/TextException.h /usr/include/c++/4.8.2/climits \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/limits.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix2_lim.h \
+ /usr/include/bits/xopen_lim.h ../../src/SBuf.h ../../src/HttpRequest.h \
+ ../../src/Debug.h ../../src/err_type.h ../../src/HierarchyLogEntry.h \
+ ../../src/comm/Connection.h ../../src/defines.h ../../src/hier_code.h \
+ ../../src/ip/Address.h /usr/include/netinet/ip.h /usr/include/netdb.h \
+ /usr/include/rpc/netdb.h /usr/include/bits/netdb.h ../../src/eui/Eui48.h \
+ ../../src/eui/Eui64.h ../../src/SquidTime.h ../../include/rfc1123.h \
+ ../../src/hier_code.h ../../src/lookup_t.h ../../src/PingData.h \
+ ../../include/rfc2181.h ../../src/Notes.h ../../src/acl/forward.h \
+ ../../src/format/Format.h ../../src/ConfigParser.h \
+ /usr/include/c++/4.8.2/queue /usr/include/c++/4.8.2/bits/stl_heap.h \
+ /usr/include/c++/4.8.2/bits/stl_queue.h ../../src/typedefs.h \
+ ../../src/RequestFlags.h ../../src/URL.h ../../src/anyp/UriScheme.h \
+ ../../src/auth/UserRequest.h ../../src/AccessLogEntry.h \
+ ../../src/anyp/PortCfg.h ../../src/anyp/forward.h \
+ ../../src/anyp/TrafficMode.h ../../src/comm/Connection.h \
+ ../../src/ssl/gadgets.h ../../src/base/TidyPointer.h \
+ ../../src/ssl/crtd_message.h /usr/include/c++/4.8.2/map \
+ /usr/include/c++/4.8.2/bits/stl_tree.h \
+ /usr/include/c++/4.8.2/bits/stl_map.h /usr/include/c++/4.8.2/tuple \
+ /usr/include/c++/4.8.2/utility /usr/include/c++/4.8.2/bits/stl_relops.h \
+ /usr/include/c++/4.8.2/array /usr/include/c++/4.8.2/stdexcept \
+ /usr/include/c++/4.8.2/bits/uses_allocator.h \
+ /usr/include/c++/4.8.2/bits/stl_multimap.h /usr/include/openssl/ssl.h \
+ /usr/include/openssl/e_os2.h /usr/include/openssl/opensslconf.h \
+ /usr/include/openssl/opensslconf-x86_64.h /usr/include/openssl/comp.h \
+ /usr/include/openssl/crypto.h /usr/include/openssl/stack.h \
+ /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+ /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+ /usr/include/openssl/bio.h /usr/include/openssl/x509.h \
+ /usr/include/openssl/buffer.h /usr/include/openssl/evp.h \
+ /usr/include/openssl/fips.h /usr/include/openssl/objects.h \
+ /usr/include/openssl/obj_mac.h /usr/include/openssl/asn1.h \
+ /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+ /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+ /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+ /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+ /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+ /usr/include/openssl/pkcs7.h /usr/include/openssl/pem.h \
+ /usr/include/openssl/pem2.h /usr/include/openssl/hmac.h \
+ /usr/include/openssl/kssl.h /usr/include/krb5.h /usr/include/krb5/krb5.h \
+ /usr/include/openssl/ssl2.h /usr/include/openssl/ssl3.h \
+ /usr/include/openssl/tls1.h /usr/include/openssl/dtls1.h \
+ /usr/include/openssl/pqueue.h /usr/include/openssl/ssl23.h \
+ /usr/include/openssl/srtp.h /usr/include/openssl/txt_db.h \
+ ../../src/icp_opcode.h ../../src/ip/Address.h ../../src/LogTags.h \
+ ../../src/MessageSizes.h ../../src/adaptation/icap/Elements.h \
+ ../../src/adaptation/Elements.h ../../src/ssl/gadgets.h \
+ ../../src/auth/AuthAclState.h ../../src/auth/Scheme.h \
+ ../../src/auth/User.h ../../src/auth/CredentialState.h \
+ ../../src/auth/Type.h ../../src/dlink.h ../../src/Notes.h \
+ ../../src/helper/forward.h ../../src/HttpHeader.h \
+ ../../src/adaptation/History.h ../../src/adaptation/DynamicGroupCfg.h \
+ ../../src/adaptation/icap/History.h ../../src/enums.h \
+ ../../src/LogTags.h ../../src/eui/Eui48.h ../../src/eui/Eui64.h \
+ ../../src/MemObject.h ../../src/dlink.h ../../src/RemovalPolicy.h \
+ ../../src/stmem.h ../../include/splay.h ../../src/StoreIOState.h \
+ ../../src/DelayId.h ../../src/DelayIdComposite.h ../../src/fatal.h \
+ ../../src/store_key_md5.h ../../src/StoreStats.h ../../src/tools.h
+
+../../include/squid.h:
+
+../../include/autoconf.h:
+
+../../include/version.h:
+
+../../compat/compat.h:
+
+../../compat/osdetect.h:
+
+../../compat/fdsetsize.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/linux/posix_types.h:
+
+/usr/include/linux/stddef.h:
+
+/usr/include/asm/posix_types.h:
+
+/usr/include/asm/posix_types_64.h:
+
+../../compat/types.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stddef.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/linux/types.h:
+
+/usr/include/asm/types.h:
+
+/usr/include/asm-generic/types.h:
+
+/usr/include/asm-generic/int-ll64.h:
+
+/usr/include/asm/bitsperlong.h:
+
+/usr/include/asm-generic/bitsperlong.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/alloca.h:
+
+/usr/include/inttypes.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/sys/bitypes.h:
+
+/usr/include/netinet/in_systm.h:
+
+/usr/include/c++/4.8.2/cstdint:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++config.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/os_defines.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/cpu_defines.h:
+
+../../compat/os/aix.h:
+
+../../compat/os/android.h:
+
+../../compat/os/dragonfly.h:
+
+../../compat/os/freebsd.h:
+
+../../compat/os/hpux.h:
+
+../../compat/os/linux.h:
+
+/usr/include/netinet/in.h:
+
+/usr/include/sys/socket.h:
+
+/usr/include/sys/uio.h:
+
+/usr/include/bits/uio.h:
+
+/usr/include/bits/socket.h:
+
+/usr/include/bits/sockaddr.h:
+
+/usr/include/asm/socket.h:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/asm/sockios.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/bits/in.h:
+
+../../compat/os/macosx.h:
+
+../../compat/os/mswindows.h:
+
+../../compat/os/netbsd.h:
+
+../../compat/os/next.h:
+
+../../compat/os/openbsd.h:
+
+../../compat/os/os2.h:
+
+../../compat/os/qnx.h:
+
+../../compat/os/sgi.h:
+
+../../compat/os/solaris.h:
+
+../../compat/os/sunos.h:
+
+../../compat/assert.h:
+
+../../compat/compat_shared.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/sys/resource.h:
+
+/usr/include/bits/resource.h:
+
+/usr/include/dirent.h:
+
+/usr/include/bits/dirent.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/bits/fcntl.h:
+
+/usr/include/bits/stat.h:
+
+/usr/include/c++/4.8.2/csignal:
+
+/usr/include/signal.h:
+
+/usr/include/bits/signum.h:
+
+/usr/include/bits/siginfo.h:
+
+/usr/include/bits/sigaction.h:
+
+/usr/include/bits/sigcontext.h:
+
+/usr/include/bits/sigstack.h:
+
+/usr/include/sys/ucontext.h:
+
+/usr/include/bits/sigthread.h:
+
+/usr/include/et/com_err.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdarg.h:
+
+../../compat/xalloc.h:
+
+../../compat/xis.h:
+
+/usr/include/ctype.h:
+
+../../compat/xstrerror.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+../../compat/xstring.h:
+
+/usr/include/string.h:
+
+../../compat/xstrto.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdbool.h:
+
+../../compat/strtoll.h:
+
+../../compat/memrchr.h:
+
+../../compat/getaddrinfo.h:
+
+../../compat/getnameinfo.h:
+
+../../compat/inet_ntop.h:
+
+../../compat/inet_pton.h:
+
+../../compat/stdvarargs.h:
+
+/usr/include/c++/4.8.2/cstdarg:
+
+/usr/include/syslog.h:
+
+/usr/include/sys/syslog.h:
+
+/usr/include/bits/syslog-path.h:
+
+../../compat/stdio.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/include/c++/4.8.2/cstdio:
+
+../../compat/statvfs.h:
+
+/usr/include/sys/statvfs.h:
+
+/usr/include/bits/statvfs.h:
+
+/usr/include/sys/vfs.h:
+
+/usr/include/sys/statfs.h:
+
+/usr/include/bits/statfs.h:
+
+../../compat/debug.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+../../compat/valgrind.h:
+
+../../compat/GnuRegex.h:
+
+../../compat/cppunit.h:
+
+../../include/leakcheck.h:
+
+../../src/base/TextException.h:
+
+/usr/include/c++/4.8.2/exception:
+
+/usr/include/c++/4.8.2/bits/atomic_lockfree_defines.h:
+
+/usr/include/c++/4.8.2/bits/exception_ptr.h:
+
+/usr/include/c++/4.8.2/bits/exception_defines.h:
+
+/usr/include/c++/4.8.2/bits/nested_exception.h:
+
+../../src/ipc/Messages.h:
+
+../../src/ipc/TypedMsgHdr.h:
+
+../../compat/cmsg.h:
+
+/usr/include/sys/un.h:
+
+../../src/mgr/ServiceTimesAction.h:
+
+../../src/mgr/Action.h:
+
+../../src/ipc/forward.h:
+
+../../src/mgr/forward.h:
+
+../../src/base/RefCount.h:
+
+../../src/base/Lock.h:
+
+/usr/include/c++/4.8.2/iostream:
+
+/usr/include/c++/4.8.2/ostream:
+
+/usr/include/c++/4.8.2/ios:
+
+/usr/include/c++/4.8.2/iosfwd:
+
+/usr/include/c++/4.8.2/bits/stringfwd.h:
+
+/usr/include/c++/4.8.2/bits/memoryfwd.h:
+
+/usr/include/c++/4.8.2/bits/postypes.h:
+
+/usr/include/c++/4.8.2/cwchar:
+
+/usr/include/c++/4.8.2/bits/char_traits.h:
+
+/usr/include/c++/4.8.2/bits/stl_algobase.h:
+
+/usr/include/c++/4.8.2/bits/functexcept.h:
+
+/usr/include/c++/4.8.2/bits/cpp_type_traits.h:
+
+/usr/include/c++/4.8.2/ext/type_traits.h:
+
+/usr/include/c++/4.8.2/ext/numeric_traits.h:
+
+/usr/include/c++/4.8.2/bits/stl_pair.h:
+
+/usr/include/c++/4.8.2/bits/move.h:
+
+/usr/include/c++/4.8.2/bits/concept_check.h:
+
+/usr/include/c++/4.8.2/type_traits:
+
+/usr/include/c++/4.8.2/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/4.8.2/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/4.8.2/debug/debug.h:
+
+/usr/include/c++/4.8.2/bits/stl_iterator.h:
+
+/usr/include/c++/4.8.2/bits/localefwd.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++locale.h:
+
+/usr/include/c++/4.8.2/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/bits/locale.h:
+
+/usr/include/c++/4.8.2/cctype:
+
+/usr/include/c++/4.8.2/bits/ios_base.h:
+
+/usr/include/c++/4.8.2/ext/atomicity.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/gthr.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/timex.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/atomic_word.h:
+
+/usr/include/c++/4.8.2/bits/locale_classes.h:
+
+/usr/include/c++/4.8.2/string:
+
+/usr/include/c++/4.8.2/bits/allocator.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++allocator.h:
+
+/usr/include/c++/4.8.2/ext/new_allocator.h:
+
+/usr/include/c++/4.8.2/new:
+
+/usr/include/c++/4.8.2/bits/ostream_insert.h:
+
+/usr/include/c++/4.8.2/bits/cxxabi_forced.h:
+
+/usr/include/c++/4.8.2/bits/stl_function.h:
+
+/usr/include/c++/4.8.2/backward/binders.h:
+
+/usr/include/c++/4.8.2/bits/range_access.h:
+
+/usr/include/c++/4.8.2/bits/basic_string.h:
+
+/usr/include/c++/4.8.2/initializer_list:
+
+/usr/include/c++/4.8.2/ext/string_conversions.h:
+
+/usr/include/c++/4.8.2/cstdlib:
+
+/usr/include/c++/4.8.2/cerrno:
+
+/usr/include/c++/4.8.2/bits/functional_hash.h:
+
+/usr/include/c++/4.8.2/bits/hash_bytes.h:
+
+/usr/include/c++/4.8.2/bits/basic_string.tcc:
+
+/usr/include/c++/4.8.2/bits/locale_classes.tcc:
+
+/usr/include/c++/4.8.2/streambuf:
+
+/usr/include/c++/4.8.2/bits/streambuf.tcc:
+
+/usr/include/c++/4.8.2/bits/basic_ios.h:
+
+/usr/include/c++/4.8.2/bits/locale_facets.h:
+
+/usr/include/c++/4.8.2/cwctype:
+
+/usr/include/wctype.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/ctype_base.h:
+
+/usr/include/c++/4.8.2/bits/streambuf_iterator.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/ctype_inline.h:
+
+/usr/include/c++/4.8.2/bits/locale_facets.tcc:
+
+/usr/include/c++/4.8.2/bits/basic_ios.tcc:
+
+/usr/include/c++/4.8.2/bits/ostream.tcc:
+
+/usr/include/c++/4.8.2/istream:
+
+/usr/include/c++/4.8.2/bits/istream.tcc:
+
+../../src/Store.h:
+
+../../src/base/RefCount.h:
+
+../../src/comm/forward.h:
+
+/usr/include/c++/4.8.2/vector:
+
+/usr/include/c++/4.8.2/bits/stl_construct.h:
+
+/usr/include/c++/4.8.2/ext/alloc_traits.h:
+
+/usr/include/c++/4.8.2/bits/alloc_traits.h:
+
+/usr/include/c++/4.8.2/bits/ptr_traits.h:
+
+/usr/include/c++/4.8.2/bits/stl_uninitialized.h:
+
+/usr/include/c++/4.8.2/bits/stl_vector.h:
+
+/usr/include/c++/4.8.2/bits/stl_bvector.h:
+
+/usr/include/c++/4.8.2/bits/vector.tcc:
+
+../../src/CommRead.h:
+
+../../include/CbDataList.h:
+
+../../include/../src/cbdata.h:
+
+../../include/../src/typedefs.h:
+
+../../include/../src/enums.h:
+
+../../include/rfc1035.h:
+
+/usr/include/arpa/inet.h:
+
+../../include/rfc2181.h:
+
+../../include/cache_snmp.h:
+
+../../include/snmp.h:
+
+../../include/snmp_error.h:
+
+../../include/snmp_session.h:
+
+../../include/snmp_msg.h:
+
+../../include/snmp_pdu.h:
+
+../../include/asn1.h:
+
+../../include/snmp_vars.h:
+
+../../include/snmp_api_error.h:
+
+../../include/snmp_coexist.h:
+
+../../include/parse.h:
+
+../../include/snmp-internal.h:
+
+../../include/snmp_api.h:
+
+../../include/snmp_debug.h:
+
+../../include/snmp_impl.h:
+
+../../include/../src/anyp/ProtocolType.h:
+
+../../src/comm.h:
+
+../../src/comm/IoCallback.h:
+
+../../src/base/AsyncCall.h:
+
+../../src/base/InstanceId.h:
+
+../../src/event.h:
+
+../../src/AsyncEngine.h:
+
+../../include/MemPool.h:
+
+../../include/util.h:
+
+../../include/memMeter.h:
+
+../../include/splay.h:
+
+../../src/fatal.h:
+
+/usr/include/c++/4.8.2/stack:
+
+/usr/include/c++/4.8.2/deque:
+
+/usr/include/c++/4.8.2/bits/stl_deque.h:
+
+/usr/include/c++/4.8.2/bits/deque.tcc:
+
+/usr/include/c++/4.8.2/bits/stl_stack.h:
+
+/usr/include/malloc.h:
+
+/usr/include/memory.h:
+
+../../src/base/RefCount.h:
+
+../../src/comm/Flag.h:
+
+../../src/comm/forward.h:
+
+../../src/typedefs.h:
+
+../../src/enums.h:
+
+../../src/CommCalls.h:
+
+../../src/base/AsyncCall.h:
+
+../../src/base/AsyncJobCalls.h:
+
+../../src/base/AsyncJob.h:
+
+../../src/base/CbcPointer.h:
+
+../../src/cbdata.h:
+
+../../src/Debug.h:
+
+/usr/include/c++/4.8.2/sstream:
+
+/usr/include/c++/4.8.2/bits/sstream.tcc:
+
+/usr/include/c++/4.8.2/iomanip:
+
+/usr/include/c++/4.8.2/locale:
+
+/usr/include/c++/4.8.2/bits/locale_facets_nonio.h:
+
+/usr/include/c++/4.8.2/ctime:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/time_members.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/messages_members.h:
+
+/usr/include/libintl.h:
+
+/usr/include/c++/4.8.2/bits/codecvt.h:
+
+/usr/include/c++/4.8.2/bits/locale_facets_nonio.tcc:
+
+../../src/comm/Flag.h:
+
+../../src/MasterXaction.h:
+
+../../src/anyp/forward.h:
+
+../../src/base/InstanceId.h:
+
+../../src/base/Lock.h:
+
+../../src/StoreIOBuffer.h:
+
+../../src/MemBuf.h:
+
+../../src/cbdata.h:
+
+../../src/Packer.h:
+
+../../src/MemBuf.cci:
+
+../../include/Range.h:
+
+../../include/hash.h:
+
+../../src/HttpReply.h:
+
+../../src/http/StatusLine.h:
+
+../../src/http/ProtocolVersion.h:
+
+../../src/anyp/ProtocolVersion.h:
+
+../../src/anyp/ProtocolType.h:
+
+../../src/http/StatusCode.h:
+
+../../src/SquidString.h:
+
+../../src/String.cci:
+
+/usr/include/c++/4.8.2/cstring:
+
+../../src/HttpBody.h:
+
+../../src/HttpMsg.h:
+
+../../src/BodyPipe.h:
+
+../../src/base/AsyncJob.h:
+
+../../src/base/CbcPointer.h:
+
+../../src/http/ProtocolVersion.h:
+
+../../src/http/StatusCode.h:
+
+../../src/HttpHeader.h:
+
+../../src/HttpHeaderMask.h:
+
+../../src/SquidString.h:
+
+../../src/HttpRequestMethod.h:
+
+../../src/http/MethodType.h:
+
+../../src/SBuf.h:
+
+../../src/MemBlob.h:
+
+../../src/SBufExceptions.h:
+
+../../src/base/TextException.h:
+
+/usr/include/c++/4.8.2/climits:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/limits.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+../../src/SBuf.h:
+
+../../src/HttpRequest.h:
+
+../../src/Debug.h:
+
+../../src/err_type.h:
+
+../../src/HierarchyLogEntry.h:
+
+../../src/comm/Connection.h:
+
+../../src/defines.h:
+
+../../src/hier_code.h:
+
+../../src/ip/Address.h:
+
+/usr/include/netinet/ip.h:
+
+/usr/include/netdb.h:
+
+/usr/include/rpc/netdb.h:
+
+/usr/include/bits/netdb.h:
+
+../../src/eui/Eui48.h:
+
+../../src/eui/Eui64.h:
+
+../../src/SquidTime.h:
+
+../../include/rfc1123.h:
+
+../../src/hier_code.h:
+
+../../src/lookup_t.h:
+
+../../src/PingData.h:
+
+../../include/rfc2181.h:
+
+../../src/Notes.h:
+
+../../src/acl/forward.h:
+
+../../src/format/Format.h:
+
+../../src/ConfigParser.h:
+
+/usr/include/c++/4.8.2/queue:
+
+/usr/include/c++/4.8.2/bits/stl_heap.h:
+
+/usr/include/c++/4.8.2/bits/stl_queue.h:
+
+../../src/typedefs.h:
+
+../../src/RequestFlags.h:
+
+../../src/URL.h:
+
+../../src/anyp/UriScheme.h:
+
+../../src/auth/UserRequest.h:
+
+../../src/AccessLogEntry.h:
+
+../../src/anyp/PortCfg.h:
+
+../../src/anyp/forward.h:
+
+../../src/anyp/TrafficMode.h:
+
+../../src/comm/Connection.h:
+
+../../src/ssl/gadgets.h:
+
+../../src/base/TidyPointer.h:
+
+../../src/ssl/crtd_message.h:
+
+/usr/include/c++/4.8.2/map:
+
+/usr/include/c++/4.8.2/bits/stl_tree.h:
+
+/usr/include/c++/4.8.2/bits/stl_map.h:
+
+/usr/include/c++/4.8.2/tuple:
+
+/usr/include/c++/4.8.2/utility:
+
+/usr/include/c++/4.8.2/bits/stl_relops.h:
+
+/usr/include/c++/4.8.2/array:
+
+/usr/include/c++/4.8.2/stdexcept:
+
+/usr/include/c++/4.8.2/bits/uses_allocator.h:
+
+/usr/include/c++/4.8.2/bits/stl_multimap.h:
+
+/usr/include/openssl/ssl.h:
+
+/usr/include/openssl/e_os2.h:
+
+/usr/include/openssl/opensslconf.h:
+
+/usr/include/openssl/opensslconf-x86_64.h:
+
+/usr/include/openssl/comp.h:
+
+/usr/include/openssl/crypto.h:
+
+/usr/include/openssl/stack.h:
+
+/usr/include/openssl/safestack.h:
+
+/usr/include/openssl/opensslv.h:
+
+/usr/include/openssl/ossl_typ.h:
+
+/usr/include/openssl/symhacks.h:
+
+/usr/include/openssl/bio.h:
+
+/usr/include/openssl/x509.h:
+
+/usr/include/openssl/buffer.h:
+
+/usr/include/openssl/evp.h:
+
+/usr/include/openssl/fips.h:
+
+/usr/include/openssl/objects.h:
+
+/usr/include/openssl/obj_mac.h:
+
+/usr/include/openssl/asn1.h:
+
+/usr/include/openssl/bn.h:
+
+/usr/include/openssl/ec.h:
+
+/usr/include/openssl/ecdsa.h:
+
+/usr/include/openssl/ecdh.h:
+
+/usr/include/openssl/rsa.h:
+
+/usr/include/openssl/dsa.h:
+
+/usr/include/openssl/dh.h:
+
+/usr/include/openssl/sha.h:
+
+/usr/include/openssl/x509_vfy.h:
+
+/usr/include/openssl/lhash.h:
+
+/usr/include/openssl/pkcs7.h:
+
+/usr/include/openssl/pem.h:
+
+/usr/include/openssl/pem2.h:
+
+/usr/include/openssl/hmac.h:
+
+/usr/include/openssl/kssl.h:
+
+/usr/include/krb5.h:
+
+/usr/include/krb5/krb5.h:
+
+/usr/include/openssl/ssl2.h:
+
+/usr/include/openssl/ssl3.h:
+
+/usr/include/openssl/tls1.h:
+
+/usr/include/openssl/dtls1.h:
+
+/usr/include/openssl/pqueue.h:
+
+/usr/include/openssl/ssl23.h:
+
+/usr/include/openssl/srtp.h:
+
+/usr/include/openssl/txt_db.h:
+
+../../src/icp_opcode.h:
+
+../../src/ip/Address.h:
+
+../../src/LogTags.h:
+
+../../src/MessageSizes.h:
+
+../../src/adaptation/icap/Elements.h:
+
+../../src/adaptation/Elements.h:
+
+../../src/ssl/gadgets.h:
+
+../../src/auth/AuthAclState.h:
+
+../../src/auth/Scheme.h:
+
+../../src/auth/User.h:
+
+../../src/auth/CredentialState.h:
+
+../../src/auth/Type.h:
+
+../../src/dlink.h:
+
+../../src/Notes.h:
+
+../../src/helper/forward.h:
+
+../../src/HttpHeader.h:
+
+../../src/adaptation/History.h:
+
+../../src/adaptation/DynamicGroupCfg.h:
+
+../../src/adaptation/icap/History.h:
+
+../../src/enums.h:
+
+../../src/LogTags.h:
+
+../../src/eui/Eui48.h:
+
+../../src/eui/Eui64.h:
+
+../../src/MemObject.h:
+
+../../src/dlink.h:
+
+../../src/RemovalPolicy.h:
+
+../../src/stmem.h:
+
+../../include/splay.h:
+
+../../src/StoreIOState.h:
+
+../../src/DelayId.h:
+
+../../src/DelayIdComposite.h:
+
+../../src/fatal.h:
+
+../../src/store_key_md5.h:
+
+../../src/StoreStats.h:
+
+../../src/tools.h:
